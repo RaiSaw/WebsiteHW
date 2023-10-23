@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Me</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <!--contact form-->
+  <nav>
+    <iframe src="header.html" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+  </nav>
+  <div class="py-8">
+    <section id="Contact">
+      <div class="relative isolate px-6 lg:px-8 pb-8">
+        <div class="mx-auto max-w-2xl text-start lg:px-24">
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl pl-12">Contact</h1>
+          <p class="mt-2 text-lg leading-8 text-gray-600 pl-12">Drop your name, email and message. Let's connect!</p>
+        </div>
+      </div>
+    </section>
+    <div class="inline-flex items-center justify-center w-full">
+      <hr class="w-64 h-px bg-gray-600 border-0 dark:bg-gray-700">
+    </div>
+    <section>
+      <div class="flex items-center justify-start gap-x-6 pb-8 sm:pb-24 lg:pb-12">
+        <form action="#" method="POST" class="mx-auto mt-12 max-w-xl sm:my-12">
+          <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+            <div>
+              <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First name</label>
+              <div class="mt-2.5">
+                <input type="text" name="first-name" id="first-name" autocomplete="given-name" placeholder="Enter your first name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 hover:shadow-inner bg-gradient-to-t from-purple-100 to-indigo-100 border ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-800 sm:text-sm sm:leading-6" required>
+              </div>
+            </div>
+            <div>
+              <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Last name</label>
+              <div class="mt-2.5">
+                <input type="text" name="last-name" id="last-name" autocomplete="family-name" placeholder="Enter your last name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 hover:shadow-inner border bg-gradient-to-t from-purple-100 to-indigo-100 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-800 sm:text-sm sm:leading-6" required>
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+              <div class="mt-2.5">
+                <input type="email" name="email" id="email" autocomplete="email" placeholder="Enter your email" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 hover:shadow-inner border ring-1 ring-inset bg-gradient-to-t from-purple-100 to-indigo-100 ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-800 sm:text-sm sm:leading-6" required>
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
+              <div class="mt-2.5">
+                <textarea name="message" id="message" rows="4" placeholder="Enter your message" required class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 hover:shadow-inner border ring-1 ring-inset bg-gradient-to-t from-purple-100 to-indigo-100 ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-800 sm:text-sm sm:leading-6"></textarea>
+              </div>
+            </div>
+            <div class="flex gap-x-4 sm:col-span-2">
+              <div class="flex h-6 items-center">
+                <button type="submit" value="submit" class="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:shadow-2xl hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"><b>Submit</b></button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <iframe src="footer.html" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+  </footer>
+</body>
+</html>

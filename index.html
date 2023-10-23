@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <!--homepage-->
+  <nav>
+    <iframe src="header.html" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+  </nav>
+  <main>
+    <section id="welcome" class="text-center">
+          <div class="relative isolate px-6 pt-14 lg:px-8">
+              <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+              <figcaption>
+                <div class="flex items-center justify-center">
+                  <img class="inline-block h-24 w-24 rounded-full ring-2 ring-white hover:shadow-2xl hover:shadow-indigo-500/40" src="assets/MyPic.png" alt="Photo">
+                </div>
+                  <div class="mt-8 flex items-center justify-center space-x-3 text-base">
+                    <div class="font-semibold text-gray-900 text-lg">Hello, I'm Rai!</div>
+                  </div>
+                  <div class="mt-4 flex items-center justify-center space-x-3 text-base">
+                    <div class="text-gray-600 text-lg">Junior Front-end Developer</div>
+                  </div>
+                </figcaption>
+              </div>
+            </div>
+    </section>
+    <section class="text-center bg-gray-200" id="about" name="about">
+      <div class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div class="text-center">
+            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">About</h1>
+            <p class="mt-6 text-lg leading-8 text-gray-600">I am a junior front-end developer and currently taking a bootcamp to become a fullstack developer.</p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+              <a href="https://raisaw.github.io/" target="_blank" class="rounded-md px-3.5 py-2.5 text-sm font-semibold border-transparent text-gray-900 border hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/40 hover:border-indigo-800 hover:text-indigo-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Visit My Website <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="justify-center">
+      <div class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div>
+            <h1 class="text-4xl font-bold text-center tracking-tight text-gray-900 sm:text-6xl">Skills</h1>
+            <div class="mt-10 flex text-lg leading-8 text-gray-600 justify-center gap-x-8">
+              <table class="table-auto px-4 border-separate rounded border-spacing-5 border border-gray-400 bg-gradient-to-t from-purple-100 to-indigo-100 hover:shadow-inner shadow-indigo-500/40">
+                <thead>
+                  <tr>
+                    <th>Transferable Skills</th>
+                    <th>Technical Skills</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Interpersonal skills</td>
+                    <td>HTML</td>
+                  </tr>
+                  <tr>
+                    <td>Intercultural competence</td>
+                    <td>CSS</td>
+                  </tr>
+                  <tr>
+                    <td>Learnability skills</td>
+                    <td>Javascript</td>
+                  </tr>
+                  <tr>
+                    <td>Creativity skills</td>
+                    <td>React</td>
+                  </tr>
+                  <tr>
+                    <td>Analytical skills</td>
+                    <td>Figma</td>
+                  </tr>
+                  <tr>
+                    <td>Critical thinking</td>
+                    <td>Material UI</td>
+                  </tr>
+                  <tr>
+                    <td>Problem solving</td>
+                    <td>Python</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-center bg-gray-200">
+      <div id="projects" class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div class="text-center">
+            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Projects</h1>
+            <p class="mt-6 text-lg leading-8 text-gray-600">Some of projects I worked on.<br>Check out my Github link to see my repositories.</p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+                <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                    <a href="#" class="group">
+                      <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 hover:shadow-2xl">
+                        <img src="assets/LuckyShrub.png" alt="Lucky Shrub Project" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                      </div>
+                      <h3 class="mt-4 text-sm text-gray-900">Lucky Shrub Website</h3>
+                      <p class="mt-1 text-sm font-regular text-gray-600">A small project created using HTML and CSS</p>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 hover:shadow-2xl hover:shadow-indigo-500/40">
+                          <img src="assets/ArtPortfolio.png" alt="Art Portfolio Photo" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                        </div>
+                        <h3 class="mt-4 text-sm text-gray-900">Art Portfolio Website</h3>
+                        <p class="mt-1 text-sm font-regular text-gray-600">A small project created using HTML, CSS and vanilla Javascript</p>
+                    </a>
+                    <a href="#" class="group">
+                      <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 hover:shadow-2xl hover:shadow-indigo-500/40">
+                        <img src="assets/Lil-Lemon.png" alt="Little Lemon Website" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                      </div>
+                      <h3 class="mt-4 text-sm text-gray-900">Lil Lemon Website</h3>
+                      <p class="mt-1 text-sm font-regular text-gray-600">A small project created using React and Chakra UI</p>
+                    </a>
+                    <a href="#" class="group">
+                      <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 hover:shadow-2xl hover:shadow-indigo-500/40">
+                        <img src="assets/bynd.png" alt="Bynd Art Gallery Website" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                      </div>
+                      <h3 class="mt-4 text-sm text-gray-900">Bynd Art Gallery Website</h3>
+                      <p class="mt-1 text-sm font-regular text-gray-600">A small project created using React and Adobe XD for the prototyping</p>
+                    </a>
+                  </div>
+              </div>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+              <a href="https://github.com/RaiSaw" target="_blank" class="rounded-md hover:bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 hover:shadow-2xl border border-transparent hover:shadow-indigo-500/40 hover:border-indigo-800 hover:text-indigo-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Github Link<span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section id="video" class="text-center">
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+            <!-- div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+              <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+            </div> -->
+            <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+              <!-- <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+                <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                  Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+                </div>
+              </div> -->
+              <div class="text-center">
+                <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Video Link</h1>
+                <p class="mt-6 text-lg leading-8 text-gray-600">A snippet of one of my projects.<br/>Check out my Youtube channel to see some of my projects.</p>
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <video src="https://www.youtube.com/watch?v=HE1KksgU0vQ" width="450rem" height="350rem" controls></video>
+                  <!-- <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a> -->
+                  <!-- <iframe src="https://www.youtube.com/watch?v=HE1KksgU0vQ" width="450rem" height="350rem" title="Youtube link" frameborder="2" allow="autoplay; gyroscope; encrypted-media; web-share" allowfullscreen></iframe> -->
+                </div>
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="https://www.youtube.com/channel/UCbDKc0OKJknLX0KdQQ2MvmA" target="_target" class="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-900 border border-transparent hover:shadow-indigo-500/40 hover:shadow-2xl hover:border-indigo-800 hover:text-indigo-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Visit My Youtube channel<span aria-hidden="true">→</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+              <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+            </div> -->
+          </div>
+        </div>
+    </section>
+        <!-- <iframe src="https://www.youtube.com/watch?v=HE1KksgU0vQ" width="450rem" height="350rem" title="Youtube link" frameborder="2" allow="autoplay; gyroscope; encrypted-media; web-share" allowfullscreen></iframe> -->
+
+  </main>
+  <iframe src="footer.html" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+</body>
+</html>
